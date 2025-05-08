@@ -22,7 +22,7 @@ public class SauceDemoTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "local/path/to/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
